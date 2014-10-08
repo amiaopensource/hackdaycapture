@@ -24,7 +24,7 @@ https://github.com/lu-zero/bmdtools
 FFmpeg with FFplay:
 `brew install ffmpeg --with-ffplay --with-openjpeg`
 
-__TOOL OPTIONS__
+__Options within the tool__
 
 _Container options:_
 *MKV
