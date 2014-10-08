@@ -34,11 +34,11 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="QC_TOOLS_HACKDAY" id="1Xt-HY-uBw">
+                <menuItem title="hackdaycapture" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="QC_TOOLS_HACKDAY" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="hackdaycapture" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About QC_TOOLS_HACKDAY" id="5kV-Vb-QxS">
+                            <menuItem title="About hackdaycapture" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -70,7 +70,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit QC_TOOLS_HACKDAY" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit hackdaycapture" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -681,7 +681,7 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="QC_TOOLS_HACKDAY" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="hackdaycapture" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="360"/>
