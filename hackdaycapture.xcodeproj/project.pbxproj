@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D9771B19E5B80400015963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9771A19E5B80400015963 /* main.m */; };
+		40D9771E19E5B80400015963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9771D19E5B80400015963 /* AppDelegate.m */; };
+		40D9772019E5B80400015963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D9771F19E5B80400015963 /* Images.xcassets */; };
+		40D9772319E5B80400015963 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D9772119E5B80400015963 /* MainMenu.xib */; };
+		40D9772F19E5B80400015963 /* hackdaycaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9772E19E5B80400015963 /* hackdaycaptureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40D9772919E5B80400015963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40D9770D19E5B80400015963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D9771419E5B80400015963;
+			remoteInfo = hackdaycapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40D9771519E5B80400015963 /* hackdaycapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackdaycapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D9771919E5B80400015963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D9771A19E5B80400015963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40D9771C19E5B80400015963 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40D9771D19E5B80400015963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40D9771F19E5B80400015963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40D9772219E5B80400015963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40D9772819E5B80400015963 /* hackdaycaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackdaycaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D9772D19E5B80400015963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D9772E19E5B80400015963 /* hackdaycaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackdaycaptureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D9771219E5B80400015963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D9772519E5B80400015963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D9770C19E5B80400015963 = {
+			isa = PBXGroup;
+			children = (
+				40D9771719E5B80400015963 /* hackdaycapture */,
+				40D9772B19E5B80400015963 /* hackdaycaptureTests */,
+				40D9771619E5B80400015963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D9771619E5B80400015963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D9771519E5B80400015963 /* hackdaycapture.app */,
+				40D9772819E5B80400015963 /* hackdaycaptureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D9771719E5B80400015963 /* hackdaycapture */ = {
+			isa = PBXGroup;
+			children = (
+				40D9771C19E5B80400015963 /* AppDelegate.h */,
+				40D9771D19E5B80400015963 /* AppDelegate.m */,
+				40D9771F19E5B80400015963 /* Images.xcassets */,
+				40D9772119E5B80400015963 /* MainMenu.xib */,
+				40D9771819E5B80400015963 /* Supporting Files */,
+			);
+			path = hackdaycapture;
+			sourceTree = "<group>";
+		};
+		40D9771819E5B80400015963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D9771919E5B80400015963 /* Info.plist */,
+				40D9771A19E5B80400015963 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40D9772B19E5B80400015963 /* hackdaycaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				40D9772E19E5B80400015963 /* hackdaycaptureTests.m */,
+				40D9772C19E5B80400015963 /* Supporting Files */,
+			);
+			path = hackdaycaptureTests;
+			sourceTree = "<group>";
+		};
+		40D9772C19E5B80400015963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D9772D19E5B80400015963 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D9771419E5B80400015963 /* hackdaycapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D9773219E5B80400015963 /* Build configuration list for PBXNativeTarget "hackdaycapture" */;
+			buildPhases = (
+				40D9771119E5B80400015963 /* Sources */,
+				40D9771219E5B80400015963 /* Frameworks */,
+				40D9771319E5B80400015963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackdaycapture;
+			productName = hackdaycapture;
+			productReference = 40D9771519E5B80400015963 /* hackdaycapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40D9772719E5B80400015963 /* hackdaycaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D9773519E5B80400015963 /* Build configuration list for PBXNativeTarget "hackdaycaptureTests" */;
+			buildPhases = (
+				40D9772419E5B80400015963 /* Sources */,
+				40D9772519E5B80400015963 /* Frameworks */,
+				40D9772619E5B80400015963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40D9772A19E5B80400015963 /* PBXTargetDependency */,
+			);
+			name = hackdaycaptureTests;
+			productName = hackdaycaptureTests;
+			productReference = 40D9772819E5B80400015963 /* hackdaycaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D9770D19E5B80400015963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dave Rice";
+				TargetAttributes = {
+					40D9771419E5B80400015963 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					40D9772719E5B80400015963 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 40D9771419E5B80400015963;
+					};
+				};
+			};
+			buildConfigurationList = 40D9771019E5B80400015963 /* Build configuration list for PBXProject "hackdaycapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40D9770C19E5B80400015963;
+			productRefGroup = 40D9771619E5B80400015963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D9771419E5B80400015963 /* hackdaycapture */,
+				40D9772719E5B80400015963 /* hackdaycaptureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D9771319E5B80400015963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D9772019E5B80400015963 /* Images.xcassets in Resources */,
+				40D9772319E5B80400015963 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D9772619E5B80400015963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D9771119E5B80400015963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D9771E19E5B80400015963 /* AppDelegate.m in Sources */,
+				40D9771B19E5B80400015963 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D9772419E5B80400015963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D9772F19E5B80400015963 /* hackdaycaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40D9772A19E5B80400015963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40D9771419E5B80400015963 /* hackdaycapture */;
+			targetProxy = 40D9772919E5B80400015963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40D9772119E5B80400015963 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D9772219E5B80400015963 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40D9773019E5B80400015963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		40D9773119E5B80400015963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40D9773319E5B80400015963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hackdaycapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40D9773419E5B80400015963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hackdaycapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40D9773619E5B80400015963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackdaycaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackdaycapture.app/Contents/MacOS/hackdaycapture";
+			};
+			name = Debug;
+		};
+		40D9773719E5B80400015963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackdaycaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackdaycapture.app/Contents/MacOS/hackdaycapture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D9771019E5B80400015963 /* Build configuration list for PBXProject "hackdaycapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D9773019E5B80400015963 /* Debug */,
+				40D9773119E5B80400015963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D9773219E5B80400015963 /* Build configuration list for PBXNativeTarget "hackdaycapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D9773319E5B80400015963 /* Debug */,
+				40D9773419E5B80400015963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40D9773519E5B80400015963 /* Build configuration list for PBXNativeTarget "hackdaycaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D9773619E5B80400015963 /* Debug */,
+				40D9773719E5B80400015963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D9770D19E5B80400015963 /* Project object */;
+}
