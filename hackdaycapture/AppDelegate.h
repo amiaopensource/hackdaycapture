@@ -12,7 +12,7 @@
 
 -(IBAction)Start:(id)sender;
 
-
+-(IBAction)DeckControl:(id)sender;
 
 @end
 

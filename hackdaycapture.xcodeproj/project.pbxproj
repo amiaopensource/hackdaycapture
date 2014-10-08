@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4064BC8A19E5D9FC00B9D728 /* dumbvplay.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4064BC8919E5D9FC00B9D728 /* dumbvplay.sh */; };
+		4064BC8D19E5DA0800B9D728 /* dumbvrecord.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4064BC8B19E5DA0800B9D728 /* dumbvrecord.sh */; };
+		4064BC8E19E5DA0800B9D728 /* dumbvstop.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4064BC8C19E5DA0800B9D728 /* dumbvstop.sh */; };
+		4064BC9019E5DA5200B9D728 /* deckcontrol.app in Resources */ = {isa = PBXBuildFile; fileRef = 4064BC8F19E5DA5200B9D728 /* deckcontrol.app */; };
 		40D9771B19E5B80400015963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9771A19E5B80400015963 /* main.m */; };
 		40D9771E19E5B80400015963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9771D19E5B80400015963 /* AppDelegate.m */; };
 		40D9772019E5B80400015963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D9771F19E5B80400015963 /* Images.xcassets */; };
@@ -25,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4064BC8919E5D9FC00B9D728 /* dumbvplay.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dumbvplay.sh; sourceTree = "<group>"; };
+		4064BC8B19E5DA0800B9D728 /* dumbvrecord.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dumbvrecord.sh; sourceTree = "<group>"; };
+		4064BC8C19E5DA0800B9D728 /* dumbvstop.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dumbvstop.sh; sourceTree = "<group>"; };
+		4064BC8F19E5DA5200B9D728 /* deckcontrol.app */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = deckcontrol.app; sourceTree = "<group>"; };
 		40D9771519E5B80400015963 /* hackdaycapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackdaycapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D9771919E5B80400015963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D9771A19E5B80400015963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4064BC9119E5DB4600B9D728 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				4064BC8B19E5DA0800B9D728 /* dumbvrecord.sh */,
+				4064BC8C19E5DA0800B9D728 /* dumbvstop.sh */,
+				4064BC8919E5D9FC00B9D728 /* dumbvplay.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
 		40D9770C19E5B80400015963 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +94,10 @@
 		40D9771719E5B80400015963 /* hackdaycapture */ = {
 			isa = PBXGroup;
 			children = (
+				4064BC9119E5DB4600B9D728 /* Scripts */,
 				40D9771C19E5B80400015963 /* AppDelegate.h */,
 				40D9771D19E5B80400015963 /* AppDelegate.m */,
+				4064BC8F19E5DA5200B9D728 /* deckcontrol.app */,
 				40D9771F19E5B80400015963 /* Images.xcassets */,
 				40D9772119E5B80400015963 /* MainMenu.xib */,
 				40D9771819E5B80400015963 /* Supporting Files */,
@@ -191,7 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4064BC8D19E5DA0800B9D728 /* dumbvrecord.sh in Resources */,
 				40D9772019E5B80400015963 /* Images.xcassets in Resources */,
+				4064BC8A19E5D9FC00B9D728 /* dumbvplay.sh in Resources */,
+				4064BC9019E5DA5200B9D728 /* deckcontrol.app in Resources */,
+				4064BC8E19E5DA0800B9D728 /* dumbvstop.sh in Resources */,
 				40D9772319E5B80400015963 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +422,7 @@
 				40D9773419E5B80400015963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D9773519E5B80400015963 /* Build configuration list for PBXNativeTarget "hackdaycaptureTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +431,7 @@
 				40D9773719E5B80400015963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
