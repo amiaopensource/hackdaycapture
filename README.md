@@ -1,20 +1,24 @@
 hackdaycapture
 ==============
-GUI for Mac
-Tested on UltraStudio Express, Blackmagic hardware. 
+GUI for Mac | Tested on UltraStudio Express, Blackmagic hardware. 
 
 __Dependency install instructions:__
 
 _Install from BlackMagic website_
+
 Blackmagic SDK
+
 https://www.blackmagicdesign.com/support
 
 Blackmagic Desktop Video (10.2.1 is tested)
 
+
 If you don't have it already, install Homebrew:
+
 http://brew.sh/
 
 Install BMDTools:
+
 https://github.com/lu-zero/bmdtools
 
 `brew tap amiaopensource/amiaos`
@@ -27,15 +31,23 @@ FFmpeg with FFplay:
 __Options within the tool__
 
 _Container options:_
+
 *MKV
+
 *MOV
-*AVI 
+
+*AVI
+
 *MXF
 
 _Codec options:_
+
 *FFV1 (does not work with MXF)
+
 *JPEG-2000
+
 *Prores
+
 *Uncompressed 
 
 _Choice of 8 bit or 10 bit (except Prores, will default and only capable of 10 bit)_
