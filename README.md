@@ -50,7 +50,7 @@ _Codec options:_
 
 *Uncompressed 
 
-_Choice of 8 bit or 10 bit (except Prores, will default and only capable of 10 bit)_
+__Choice of 8 bit or 10 bit (except Prores, will default and only capable of 10 bit)__
 
-Audio output is always two audio tracks, with stereo audio. 
+__Audio output is always two audio tracks, with stereo audio.__
 
