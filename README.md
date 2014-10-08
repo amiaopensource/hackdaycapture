@@ -33,21 +33,15 @@ __Options within the tool__
 _Container options:_
 
 *MKV
-
 *MOV
-
 *AVI
-
 *MXF
 
 _Codec options:_
 
 *FFV1 (does not work with MXF)
-
 *JPEG-2000
-
 *Prores
-
 *Uncompressed 
 
 __Choice of 8 bit or 10 bit (except Prores, will default and only capable of 10 bit)__
