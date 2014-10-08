@@ -15,6 +15,7 @@
             <connections>
                 <outlet property="Audio_Input_Select" destination="ngz-e1-Q5w" id="fXu-hS-rwr"/>
                 <outlet property="BitDepthSelect" destination="bi4-fh-0XC" id="YVv-wl-hNp"/>
+                <outlet property="Compression_Selector" destination="oHJ-ih-uPB" id="YiC-Qo-uuZ"/>
                 <outlet property="FileName_Field" destination="GY1-ML-8KT" id="xdf-gh-r2H"/>
                 <outlet property="StartButton" destination="d8F-ob-X7I" id="T9E-cW-u9p"/>
                 <outlet property="Start_Button" destination="dlV-ZC-gD0" id="k47-eW-8V2"/>
@@ -691,6 +692,22 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPP-eD-6XV">
+                        <rect key="frame" x="7" y="258" width="108" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Audio Input" id="XvY-JK-QFe">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GJ8-hC-RFB">
+                        <rect key="frame" x="7" y="218" width="108" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Video Codec" id="hWL-4b-HDA">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DVX-4T-eEc">
                         <rect key="frame" x="23" y="53" width="68" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Filename" id="i4X-0X-Yhx">
@@ -774,14 +791,18 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPP-eD-6XV">
-                        <rect key="frame" x="7" y="258" width="108" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Audio Input" id="XvY-JK-QFe">
+                    <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IBY-4h-1Ku">
+                        <rect key="frame" x="119" y="216" width="356" height="24"/>
+                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="oHJ-ih-uPB">
                             <font key="font" metaFont="system"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
+                            <segments>
+                                <segment label="Uncompressed" width="101" selected="YES"/>
+                                <segment label="FFV1" width="99" tag="1"/>
+                                <segment label="JPEG 2000"/>
+                                <segment label="ProRes"/>
+                            </segments>
+                        </segmentedCell>
+                    </segmentedControl>
                 </subviews>
             </view>
             <point key="canvasLocation" x="370" y="228"/>

@@ -18,6 +18,7 @@
 @property (weak) IBOutlet NSTextField *FileName_Field;
 @property (weak) IBOutlet NSSegmentedControl *Audio_Input_Select;
 
+@property (weak) IBOutlet NSSegmentedCell *Compression_Selector;
 
 @property (weak) IBOutlet NSSegmentedControl *BitDepthSelect;
 @property (weak) IBOutlet NSWindow *window;
@@ -46,7 +47,8 @@ NSTask *task ;
     NSString * Depth;
     NSString * Video_Input;
     NSString * Audio_Input;
-    self.Start_Button.title=@"Stop Capture";
+        NSString * Compression;
+        self.Start_Button.title=@"Stop Capture";
    task = [[NSTask alloc] init];
         NSString * directoryloc = [Write_Directory_Field stringValue];
         NSString * fileloc = [FileName_Field stringValue];
@@ -62,12 +64,37 @@ NSTask *task ;
      Depth =@"10";
         
     }
-        
+        if (self.Compression_Selector.selectedSegment==0)
+        {
+            
+            Compression =@"uncompressed";
+        }
+        else if (self.Compression_Selector.selectedSegment==1)
+        {
+            
+            
+            Compression =@"ffv1";
+            
+        }
+        else if (self.Compression_Selector.selectedSegment==2)
+        {
+            
+            
+            Compression =@"jpeg2000";
+            
+        }
+        else if (self.Compression_Selector.selectedSegment==3)
+        {
+            
+            
+            Compression =@"prores";
+            
+        }
         
     Video_Input= [NSString stringWithFormat:@"%ld",(long)self.Video_Input_Selector.selectedSegment+1];
         Audio_Input= [NSString stringWithFormat:@"%ld",(long)self.Audio_Input_Select.selectedSegment+1];
     task.launchPath= @"/Users/drice/github/local/vrecord/dumbvrecord";
-        [task setArguments:[NSArray arrayWithObjects:Depth,Video_Input,@"3",directoryloc,fileloc, nil]];
+        [task setArguments:[NSArray arrayWithObjects:Depth,Video_Input,Audio_Input,directoryloc,fileloc,Compression, nil]];
  
     
     [task launch];
