@@ -25,8 +25,8 @@ https://github.com/lu-zero/bmdtools
 
 `brew install bmdtools` 
 
-FFmpeg with FFplay:
-`brew install ffmpeg --with-ffplay --with-openjpeg`
+FFmpeg with ffplay:
+`brew install ffmpeg --with-sdl2 --with-openjpeg`
 
 __Options within the tool__
 
