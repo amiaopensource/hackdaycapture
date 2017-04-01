@@ -12,7 +12,6 @@ https://www.blackmagicdesign.com/support
 
 Blackmagic Desktop Video (10.2.1 is tested)
 
-
 If you don't have it already, install Homebrew:
 
 https://brew.sh/
@@ -25,7 +24,8 @@ https://github.com/lu-zero/bmdtools
 
 `brew install bmdtools` 
 
-FFmpeg with ffplay:
+Install FFmpeg with ffplay:
+
 `brew install ffmpeg --with-sdl2 --with-openjpeg`
 
 __Options within the tool__
