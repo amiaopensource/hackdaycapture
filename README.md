@@ -15,7 +15,7 @@ Blackmagic Desktop Video (10.2.1 is tested)
 
 If you don't have it already, install Homebrew:
 
-http://brew.sh/
+https://brew.sh/
 
 Install BMDTools:
 
@@ -32,25 +32,18 @@ __Options within the tool__
 
 _Container options:_
 
-*MKV
-
-*MOV
-
-*AVI
-
-*MXF
+* MKV
+* MOV
+* AVI
+* MXF
 
 _Codec options:_
 
-*FFV1 (does not work with MXF)
+* FFV1 (does not work with MXF)
+* JPEG-2000
+* ProRes
+* Uncompressed 
 
-*JPEG-2000
-
-*Prores
-
-*Uncompressed 
-
-__Choice of 8 bit or 10 bit (except Prores, will default and only capable of 10 bit)__
+__Choice of 8 bit or 10 bit (except ProRes, will default and only capable of 10 bit)__
 
 __Audio output is always two audio tracks, with stereo audio.__
-
